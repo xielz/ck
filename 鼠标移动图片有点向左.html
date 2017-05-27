@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .hex {
+            border: 1px solid;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            margin-left: 30px;
+        }
+
+            .hex:hover img {
+                margin-left: -15px;
+                position: relative;
+                /*transition的综合写法   
+                    元素选择器{transition:运动的样式 持续时间 运动形式 延迟时间;}  
+                    
+                        all 立刻执行 .4s 0.4秒后执行    ease-out(减速)*/
+                -webkit-transition: all 1s ease-in-out 0;  
+                /*-moz-transition: all .4s ease-out;
+                -ms-transition: all .4s ease-out;
+                -o-transition: all .4s ease-out;
+                transition: all .4s ease-out;*/
+                z-index: 1;
+            }
+    </style>
+</head>
+<body>
+    <div class="hex">
+        <img src="images/1.png" />
+
+    </div>
+
+    <div class="hex">
+        <img src="images/2.png" />
+
+    </div>
+    <div class="hex">
+        <img src="images/2.png" />
+
+    </div>
+    <div class="hex">
+        <img src="images/2.png" />
+
+    </div>
+</body>
+</html>

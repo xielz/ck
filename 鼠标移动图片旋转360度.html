@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .hex {
+            width: 180px;
+            height: 105px;
+            background: rgba(0,0,0,0.7);
+            position: relative;
+            color: #fff;
+        }
+
+            .hex img {
+               
+                transition: all 1s;
+                margin:0 auto;
+                display:block;
+            }
+
+            .hex:hover img {
+                /*旋转360度   scale(2)整体放大2倍     duration: 500动画时长  
+               easing: 'linear'缓动效果     scale: （2, 1.5）宽度和高度不同的放大   */
+           
+                 transform: rotate(360deg) scale(2);  
+
+                position:relative;
+                  z-index: 2;
+
+            }
+    </style>
+</head>
+<body>
+    <div class="hex">
+        <img src="images/1.png" />
+
+    </div>
+
+    <div class="hex">
+        <img src="images/2.png" />
+
+    </div>
+     <div class="hex">
+        <img src="images/2.png" />
+
+    </div> <div class="hex">
+        <img src="images/2.png" />
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: #808080;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#x_contant {
+    width: 980px;
+    height: 315px;
+    margin: 0 auto;
+    position: relative;
+    background: url(../images/xzt_bg.jpg) 0 0 no-repeat;
+}
+
+    #x_contant a {
+        width: 125px;
+        height: 125px;
+    }
+
+        #x_contant a img {
+            display: block;
+            
+            width: 125px;
+            height: 125px;
+        }
+
+        #x_contant a:hover img {
+            -webkit-transition: -webkit-transform 0.4s ease-out;
+            -moz-transition: -moz-transform 0.4s ease-out;
+            transition: transform 0.4s ease-out;
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+
+    #x_contant .xzt1 {
+        position: absolute;
+        left: 14px;
+        top: 161px;
+    }
+
+    #x_contant .xzt2 {
+        position: absolute;
+        left: 161px;
+        top: 109px;
+    }
+
+    #x_contant .xzt3 {
+        position: absolute;
+        left: 331px;
+        top: 32px;
+    }
+
+    #x_contant .xzt4 {
+        position: absolute;
+        left: 489px;
+        top: 103px;
+    }
+
+    #x_contant .xzt5 {
+        position: absolute;
+        left: 618px;
+        top: 31px;
+    }
+
+    #x_contant .xzt6 {
+        top: 149px;
+        right: 109px;
+        position: absolute;
+    }
+
+    #x_contant .xzt7 {
+        position: absolute;
+        left: 856px;
+        top: 21px;
+    }
